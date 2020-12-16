@@ -17,11 +17,12 @@ function myFunction() {
     let test = 'variable';
     console.log(test.length);
 }
+
 function onOpen() {
     SpreadsheetApp.getUi()
     .createMenu('test')
     .addItem('これを実行', 'myFunction')
-    .addToUi()
+    .addToUi();
 }
 ```
 というスクリプトを用意すると、`'myFunction' is defined but never used `と怒られるので、あらかじめファイルの冒頭に
@@ -31,8 +32,8 @@ function onOpen() {
 と入力することでエラーを回避できる。
 また、別ファイルで定義済みの関数や変数について`'LocalizedMessage' is not defined`と怒られるようなときは、同じくスクリプトファイル冒頭に
 ```javascript
-/* global global-var1, global-var2, ... */
+/* global LocalizedMessage, global-var1, global-var2, ... */
 ```
-と入力することでエラーを回避できる。改行不可。
+と入力することでエラーを回避できる。
 
 なお、GAS固有のクラス（`SpreadsheetApp`, `GmailApp`などなど）で、よく使うものは`.eslintrc.yml`内の`globals`にてあらかじめ定義している。必要に応じて、追記する。
