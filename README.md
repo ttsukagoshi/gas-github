@@ -1,4 +1,5 @@
 # Google Apps ScriptユーザのためのSuper Linter設定ファイルサンプル
+[![GitHub Super-Linter](https://github.com/ttsukagoshi/super-linter-for-google-apps-script/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 ## Super Linterとは
 GitHubが作成した、各種言語のlinterをGitHub Actionsとして実行できるもの。Push時やPull Request時などをトリガーとする。（公式資料は[こちら](https://github.com/github/super-linter)）。
 
