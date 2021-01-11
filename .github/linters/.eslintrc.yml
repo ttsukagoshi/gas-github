@@ -26,6 +26,7 @@ globals:
   FormApp: readonly
   GmailApp: readonly
   HtmlService: readonly
+  Logger: readonly
   MailApp: readonly
   PropertiesService: readonly
   ScriptApp: readonly
@@ -35,7 +36,7 @@ globals:
   SpreadsheetApp: readonly
   UrlFetchApp: readonly
   Utilities: readonly
-
+  XmlService: readonly
 
 ###############
 # Parser vars #
