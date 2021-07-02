@@ -1,5 +1,4 @@
 ---
-
 #############################
 #############################
 ## JavaScript Linter rules ##
@@ -12,7 +11,7 @@
 env:
   browser: true
   es6: true
-  node: true
+  jest: true
 
 ###############
 # Global Vars #
