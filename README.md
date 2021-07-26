@@ -58,5 +58,6 @@ function onOpen() {
 1. `.clasp.json`に 1 行追加`"rootDir": "./src"`
 1. `mkdir src`からの`mv appsscript.json src`
 1. `npm init`
+1. `npm install -D @google/clasp`
 1. `npm install -D typescript @types/google-apps-script`
 1. `npm install -D eslint prettier eslint-config-prettier eslint-plugin-prettier`
