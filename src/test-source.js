@@ -1,5 +1,5 @@
 /* exported myFunction */
-/* global LocalizedMessage, MESSAGES */
+/* global LocalizedMessage */
 
 const LOCALE = Session.getActiveUserLocale();
 // or SpreadsheetApp.getActiveSpreadsheet().getSpreadsheetLocale();
