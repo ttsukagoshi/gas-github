@@ -61,3 +61,4 @@ function onOpen() {
 1. `npm install -D @google/clasp`
 1. `npm install -D typescript @types/google-apps-script`
 1. `npm install -D eslint prettier eslint-config-prettier eslint-plugin-prettier`
+1. `npm install -D @typescript-eslint/eslint-plugin @typescript-eslint/parser`
