@@ -22,6 +22,7 @@ globals:
   CacheService: readonly
   CalendarApp: readonly
   CardService: readonly
+  ContentService: readonly
   DocumentApp: readonly
   DriveApp: readonly
   FormApp: readonly

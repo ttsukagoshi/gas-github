@@ -18,13 +18,13 @@
   "homepage": "https://github.com/ttsukagoshi/super-linter-for-google-apps-script#readme",
   "devDependencies": {
     "@google/clasp": "^2.4.1",
-    "@types/google-apps-script": "^1.0.37",
-    "@typescript-eslint/eslint-plugin": "^5.1.0",
-    "@typescript-eslint/parser": "^5.1.0",
-    "eslint": "^8.0.1",
+    "@types/google-apps-script": "^1.0.41",
+    "@typescript-eslint/eslint-plugin": "^5.8.1",
+    "@typescript-eslint/parser": "^5.8.1",
+    "eslint": "^8.6.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "prettier": "^2.4.1",
-    "typescript": "^4.4.4"
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
   }
 }

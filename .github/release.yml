@@ -1,0 +1,14 @@
+changelog:
+  categories:
+    - title: Bug Fixes🚑
+      labels:
+        - bug
+    - title: Documentations📃
+      labels:
+        - documentation
+    - title: Dependencies🛠
+      labels:
+        - dependencies
+    - title: Other Changes
+      labels:
+        - '*'
