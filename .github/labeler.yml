@@ -5,3 +5,7 @@ dependencies:
 documentation:
   - LICENSE
   - README.md
+
+workflow:
+  - .github/workflows/*
+  - .github/workflows/**/*
