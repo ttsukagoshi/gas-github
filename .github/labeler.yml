@@ -1,0 +1,7 @@
+dependencies:
+  - package-lock.json
+  - package.json
+
+documentation:
+  - LICENSE
+  - README.md
