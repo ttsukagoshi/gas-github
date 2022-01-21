@@ -9,3 +9,6 @@ documentation:
 workflow:
   - .github/workflows/*
   - .github/workflows/**/*
+  - .github/dependabot.yml
+  - .github/labeler.yml
+  - .github/release.yml
