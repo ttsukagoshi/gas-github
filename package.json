@@ -1,23 +1,22 @@
 {
-  "name": "super-linter-for-google-apps-script",
-  "version": "1.0.0",
-  "description": "A sample of GitHub Super Linter config files for using the GitHub Action on Google Apps Script files.",
-  "main": "test-souce.js",
+  "name": "gas-github",
+  "version": "2.0.0",
+  "description": "claspを活用した、GitHub上でのGoogle Apps Script（GAS）開発。手順とサンプルファイル集。",
+  "main": "src/test-source.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ttsukagoshi/super-linter-for-google-apps-script.git"
+    "url": "git+https://github.com/ttsukagoshi/gas-github.git"
   },
   "author": "ttsukagoshi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ttsukagoshi/super-linter-for-google-apps-script/issues"
+    "url": "https://github.com/ttsukagoshi/gas-github/issues"
   },
-  "homepage": "https://github.com/ttsukagoshi/super-linter-for-google-apps-script#readme",
+  "homepage": "https://github.com/ttsukagoshi/gas-github#readme",
   "devDependencies": {
-    "@google/clasp": "^2.4.1",
     "@types/google-apps-script": "^1.0.53",
     "@typescript-eslint/eslint-plugin": "^5.32.0",
     "@typescript-eslint/parser": "^5.32.0",
