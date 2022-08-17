@@ -12,13 +12,12 @@ env:
   browser: true
   es6: true
   jest: true
+  node: true
 
 ###############
 # Global Vars #
 ###############
 globals:
-  # Atomics: readonly
-  # SharedArrayBuffer: readonly
   CacheService: readonly
   CalendarApp: readonly
   CardService: readonly
@@ -46,7 +45,7 @@ globals:
 parser: '@typescript-eslint/parser'
 parserOptions:
   ecmaVersion: 2018
-  sourceType: script
+  sourceType: module
 
 ###########
 # Plugins #
@@ -56,10 +55,9 @@ extends:
   - 'plugin:prettier/recommended'
 plugins:
   - '@typescript-eslint'
-
 #########
 # Rules #
 #########
-rules:
-  no-useless-escape: warn
-  semi: error
+# rules:
+#   no-useless-escape: warn
+#   semi: error
