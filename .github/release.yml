@@ -1,12 +1,12 @@
 changelog:
   categories:
-    - title: Bug Fixes🚑
+    - title: 🚑 Bug Fixes
       labels:
         - bug
-    - title: Documentations📃
+    - title: 📃 Documentations
       labels:
         - documentation
-    - title: Dependencies🛠
+    - title: 🛠 Dependencies
       labels:
         - dependencies
     - title: Other Changes
