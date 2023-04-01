@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/ttsukagoshi/gas-github#readme",
   "devDependencies": {
-    "@types/google-apps-script": "^1.0.57",
+    "@types/google-apps-script": "^1.0.59",
     "@typescript-eslint/eslint-plugin": "^5.54.0",
     "@typescript-eslint/parser": "^5.54.0",
     "eslint": "^8.35.0",
